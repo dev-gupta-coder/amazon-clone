@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon India</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+    <div id="headerBox">
+        <div id="logoDiv">
+            <img src="amazonLogo.png" alt="" id="amazonImageLogo">
+        </div>
+
+        <div id="locationButton">
+            <i class="fa-solid fa-location-pin" id="locationPin"></i>
+            <a href="" id="locAnchor">
+                
+                <p id="upLoc">Delivering to Prayagraj 211004</p>
+                <p id="downLoc">Update Location</p>
+            </a>
+        </div>
+
+        <div id="searchAreaDiv">
+            <select name="items" id="selectTag">
+                <option value="allCat">All Categories</option>
+                <option value="alexSkill">Alexa Skills</option>
+            </select>
+
+            <input type="text" placeholder="Search Amazon.in" id="searchBarArea">
+
+            <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+    </div>
+
 </body>
 </html>

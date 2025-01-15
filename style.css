@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#headerBox {
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+
+    display: flex;
+    
+    align-items: center;
+}
+
+#logoDiv {
+    height: 55px;
+    /* background-color: green; */
+    width: 120px;
+    margin-left: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#amazonImageLogo {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    padding-top: 10px;
+}
+
+#locationButton {
+    height: 55px;
+    width: 250px;
+    /* background-color: green; */
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#locAnchor {
+    text-decoration: none;
+}
+
+#upLoc {
+    font-size: 12px;
+    color: rgb(186, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#downLoc {
+    font-size: 14px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#searchAreaDiv {
+    height: 55px;
+    width: 550px;
+    /* background-color: green; */
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}   
+
+#selectTag {
+    height: 38px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#searchBarArea {
+    height: 34px;
+    width: 350px;
+}
+
+#searchButton {
+    height: 36px;
+    width: 50px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 0px;
+    background-color: rgba(255, 190, 60, 0.939);
+}
+
+#locationPin {
+    display: block;
+    color: white;
+    margin-right: 10px;
+    
+}
